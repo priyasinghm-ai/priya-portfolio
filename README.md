@@ -1,8 +1,9 @@
 # Priya Singh Portfolio Website
 
-Modern animated React portfolio website for Priya Singh.
+Production-ready animated React portfolio website for Priya Singh.
 
 ## Tech Stack
+
 - React
 - Vite
 - Framer Motion
@@ -10,13 +11,21 @@ Modern animated React portfolio website for Priya Singh.
 - CSS animations
 
 ## Run Locally
+
 ```bash
 npm install
 npm run dev
 ```
 
+## Build
+
+```bash
+npm run build
+```
+
 ## Deploy to Vercel
+
 1. Create a GitHub repository named `priya-portfolio`
 2. Upload this project
-3. Go to Vercel and import the repository
+3. Import the repository in Vercel
 4. Click Deploy
