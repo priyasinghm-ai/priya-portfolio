@@ -1,5 +1,5 @@
 import React from 'react'
-import { Github, Linkedin, Mail } from 'lucide-react'
+import { Code2, BriefcaseBusiness, Mail } from 'lucide-react'
 import { profile } from '../data/profile'
 
 export default function Contact() {
@@ -10,8 +10,8 @@ export default function Contact() {
       <p>Open to AI Engineering, Data Engineering, Cloud Data Platform and Enterprise AI opportunities.</p>
       <div className="actions center">
         <a className="btn primary" href={`mailto:${profile.email}`}><Mail size={18}/> Email</a>
-        <a className="btn secondary" href={profile.linkedin} target="_blank"><Linkedin size={18}/> LinkedIn</a>
-        <a className="btn secondary" href={profile.github} target="_blank"><Github size={18}/> GitHub</a>
+        <a className="btn secondary" href={profile.linkedin} target="_blank"><BriefcaseBusiness size={18}/> LinkedIn</a>
+        <a className="btn secondary" href={profile.github} target="_blank"><Code2 size={18}/> GitHub</a>
       </div>
     </section>
   )

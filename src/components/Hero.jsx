@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Github, Mail, Sparkles } from 'lucide-react'
+import { Code2, Mail, Sparkles } from 'lucide-react'
 import { profile } from '../data/profile'
 
 export default function Hero() {
@@ -16,7 +16,7 @@ export default function Hero() {
         <h1>Building enterprise AI and cloud data platforms.</h1>
         <p>{profile.summary}</p>
         <div className="actions">
-          <a className="btn primary" href={profile.github} target="_blank"><Github size={18}/> View GitHub</a>
+          <a className="btn primary" href={profile.github} target="_blank"><Code2 size={18}/> View GitHub</a>
           <a className="btn secondary" href={`mailto:${profile.email}`}><Mail size={18}/> Contact Me</a>
         </div>
       </motion.div>
