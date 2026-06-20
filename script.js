@@ -11,7 +11,7 @@ const revealObserver = new IntersectionObserver(
       if (entry.isIntersecting) entry.target.classList.add("active");
     });
   },
-  { threshold: 0.14 }
+  { threshold: 0.13 }
 );
 
 document.querySelectorAll(".reveal").forEach((el) => revealObserver.observe(el));

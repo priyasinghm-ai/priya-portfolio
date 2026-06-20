@@ -1,14 +1,13 @@
-# Priya Singh Premium Portfolio V2
+# Priya Singh Graphic Impact Portfolio V3
 
-No-build premium static portfolio.
+No-build static portfolio with headshot, visual metrics, architecture diagram, project diagrams, and resume-based impact highlights.
 
 ## Files
 - index.html
 - style.css
 - script.js
+- assets/priya-headshot.jpg
 - README.md
 
 ## Deploy
-Replace the existing files in your `priya-portfolio` GitHub repository, commit, push, and Vercel will deploy automatically.
-
-No npm, no build command, no install command required.
+Replace existing files in GitHub repo, commit, push. Vercel will auto-deploy.
