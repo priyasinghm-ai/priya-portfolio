@@ -5,15 +5,13 @@ window.addEventListener("mousemove", (event) => {
   cursorGlow.style.top = `${event.clientY}px`;
 });
 
-const observer = new IntersectionObserver(
+const revealObserver = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("active");
-      }
+      if (entry.isIntersecting) entry.target.classList.add("active");
     });
   },
-  { threshold: 0.15 }
+  { threshold: 0.14 }
 );
 
-document.querySelectorAll(".reveal").forEach((element) => observer.observe(element));
+document.querySelectorAll(".reveal").forEach((el) => revealObserver.observe(el));
